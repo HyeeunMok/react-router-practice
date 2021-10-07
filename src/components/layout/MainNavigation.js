@@ -9,7 +9,7 @@ const MainNavigation = () => {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <NavLink to="/quotes" activeClassname={classes.active}>
+            <NavLink to="/quotes" activeClassName={classes.active}>
               All Quotes
             </NavLink>
           </li>
