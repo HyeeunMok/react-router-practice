@@ -2,8 +2,8 @@ import { useRef, useState } from 'react';
 import { Prompt } from 'react-router-dom';
 import { Fragment } from 'react/cjs/react.production.min';
 
-import Card from '../UI/Card';
-import LoadingSpinner from '../UI/LoadingSpinner';
+import Card from '../ui/Card';
+import LoadingSpinner from '../ui/LoadingSpinner';
 import classes from './QuoteForm.module.css';
 
 const QuoteForm = props => {
